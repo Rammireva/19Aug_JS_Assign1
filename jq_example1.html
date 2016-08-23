@@ -1,0 +1,15 @@
+<html>
+<head><title>Jquery</title></head>
+<body>
+<p>Click Me!</p>
+</body>
+<script src="../../jquery.min.js"></script>
+<script type="application/javascript">
+    $('p').click(function () {
+        $(this).after('<p>This is a click Event</p>');
+    });
+    $('p').dblclick(function () {
+        $(this).after('<p>This is a Double click Event</p>');
+    });
+</script>
+</html>
